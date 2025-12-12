@@ -1,0 +1,23 @@
+# Ignore Redis binary files
+redis-server.exe
+redis-cli.exe
+redis-benchmark.exe
+redis-check-aof.exe
+redis-check-rdb.exe
+
+# Ignore Redis data files
+*.rdb
+*.aof
+dump.rdb
+appendonly.aof
+
+# Ignore log files
+*.log
+redis.log
+
+# Ignore download artifacts
+redis.zip
+Redis-x64-*
+
+# Keep config files
+!redis.conf
